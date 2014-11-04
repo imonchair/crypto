@@ -1,0 +1,18 @@
+import os, random, string, time 
+
+def makeKey():
+	length = 13
+	chars = string.ascii_letters
+	random.seed = (os.urandom(1024))
+	print ''.join(random.choice(chars) for i in range(length))
+
+def main():
+	letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+	
+	
+
+
+makeKey()	
+
+def selfDestruct():
+	
